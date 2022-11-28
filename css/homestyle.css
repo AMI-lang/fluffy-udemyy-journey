@@ -244,6 +244,36 @@ a.active-link {
 .w-95 {
   width: 95%;
 }
+.card-title {
+      margin: 0 0 2px 0;
+}
+.p-0 {
+      padding:3px 0 !important;
+}
+.rating {
+      gap: 2px;
+}
+.price {
+      gap: 4px;
+      font-size: 0.875rem;
+}
+.price-text {
+      font-weight: 700;
+}
+.rating-v {
+      padding: 1px 0;
+      font-weight: 700;
+      font-size: 0.85rem;
+}
+.img {
+      border:1px solid #6a6f73;
+      height: 132.75px;
+}
+.img > img{
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+}
 .card,
 .cards2 {
   border: 1px solid;
@@ -435,3 +465,7 @@ a.line-hover:hover {
 .footer_btn:hover {
   background-color: #282a2dab;
 }
+.gold-star {
+      color: #F68127;
+}
+/* color: #F68127; */
