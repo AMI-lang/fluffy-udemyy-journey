@@ -1,499 +1,626 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <script
-      src="https://kit.fontawesome.com/13560a6630.js"
-      crossorigin="anonymous"
-    ></script>
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
-    />
-    <link rel="stylesheet" href="/css/homestyle.css" />
-  </head>
 
-  <body>
-    <nav class="nav-container">
-      <div class="full_nav">
-        <div class="logo">
-          <img src="/images/dark_Udemy_logo.svg.png" alt="logo" />
-        </div>
-        <!-- ------Integraataed tooltip starts---- -->
-        <div class="first_tooltip_main">
-          <a href="#" class="nav-link">Categories</a>
-          <span class="first_tooltiptext">Tooltip text</span>
-        </div>
-        <!-- ------Integraataed tooltip ends---- -->
-        <div class="input-control flex">
-          <span class="material-symbols-outlined grey_icon"> search </span>
-          <input type="search" id="search" placeholder="Search for anything" />
-        </div>
-        <div class="right_tooltip">
-          <a href="#" class="nav-link">Udemy Business</a>
-          <span class="r_tooltiptext">Tooltip text</span>
-        </div>
-        <div class="right_tooltip">
-          <a href="#" class="nav-link">Teach on Udemy</a>
-          <span class="r_tooltiptext">Tooltip text</span>
-        </div>
-        <ul class="icons-n-btns flex">
-          <li>
-            <a href="#" class="nav-link cart-link">
-              <span class="material-symbols-outlined"> shopping_cart </span>
-            </a>
-          </li>
-          <li><a href="#" class="nav_btns logIn-btn">Log In</a></li>
-          <li><a href="#" class="nav_btns signUp-btn">Sign up</a></li>
-          <li>
-            <button class="languages-btn">
-              <span class="material-symbols-outlined"> language </span>
-            </button>
-          </li>
-        </ul>
-      </div>
-    </nav>
-    <main>
-      <!-- Hero Section -->
-      <section class="hero">
-        <div class="container">
-          <div class="content-header">
-            <h1 class="hero_h1">Learning that gets you</h1>
-            <h2 class="hero_h2">
-              Skills for your present (and your future). Get started today.
-            </h2>
-          </div>
-        </div>
-      </section>
-      <!-- SECTION ONE -->
-      <section class="courses">
-        <div class="container">
-          <div class="heading">
-            <h2 class="courses_h2">A broad selection of courses</h2>
-            <h3 class="courses_h3">
-              Choose from 213,000 online video courses with new additions
-              published every month
-            </h3>
-          </div>
-          <section class="course_cards">
-            <div class="courses_tabs">
-              <a href="#" class="tab_links">Python</a>
-              <a href="#" class="tab_links">Excel</a>
-              <a href="#" class="active-link tab_links">Web Development</a>
-              <a href="#" class="tab_links">JavaScript</a>
-              <a href="#" class="tab_links">Data Science</a>
-              <a href="#" class="tab_links">AWS certification</a>
-              <a href="#" class="tab_links">Drawing</a>
-            </div>
-            <div class="cards_in_slide">
-              <div class="heading2">
-                <h3 class="sub_h3">
-                  Build websites and applications with Web Development
-                </h3>
-                <h4 class="sub_h4">
-                  The world of web development is as wide as the internet
-                  itself. Much of our social and vocational lives play out on
-                  the internet, which prompts new industries aimed at creating,
-                  managing, and debugging the websites and applications that we
-                  increasingly rely on.
-                </h4>
-                <a href="#" class="courses_btn">Explore Web development</a>
-              </div>
-              <div class="cards_wrap w-95">
-                <div class="card">
-                  <div class="img">
-                    <img
-                      src="/images/web_courses_section_img1.jpeg"
-                      alt="html css and js certification"
-                    />
-                  </div>
-                  <h4 class="card-title">
-                    Become a Certified HTML, CSS, JavaScript Web...
-                  </h4>
-                  <span class="gray-text p-0"
-                    >Dollar Design school, Mark Lassoff</span
-                  >
-                  <span class="rating flex">
-                    <span class="rating-v gold-star">4.44</span>
-                    <i class="fa-solid fa-star gold-star fa-xs"></i>
-                    <i class="fa-solid fa-star gold-star fa-xs"></i>
-                    <i class="fa-solid fa-star gold-star fa-xs"></i>
-                    <i class="fa-solid fa-star gold-star fa-xs"></i>
-                    <i class="fa-solid fa-star-half-stroke gold-star fa-xs"></i>
-                    <span class="gray-text p-0">(3000)</span>
-                  </span>
-                  <span class="price flex">
-                    <span class="price-text">&#8358;2750</span>
-                    <span class="gray-text"><del>&#8358;14900</del></span>
-                  </span>
-                </div>
-                <div class="card">
-                  <div class="img">
-                    <img
-                      src="/images/web_courses_img2.jpeg"
-                      alt="html css and js certification"
-                    />
-                  </div>
-                  <h4 class="card-title">
-                    The Complete 2020 Fullstack Web Developer Course
-                  </h4>
-                  <span class="gray-text p-0"
-                    >Dollar Design school, Mark Lassoff</span
-                  >
-                  <span class="rating flex">
-                    <span class="rating-v gold-star">4.44</span>
-                    <i class="fa-solid fa-star gold-star fa-xs"></i>
-                    <i class="fa-solid fa-star gold-star fa-xs"></i>
-                    <i class="fa-solid fa-star gold-star fa-xs"></i>
-                    <i class="fa-solid fa-star gold-star fa-xs"></i>
-                    <i class="fa-solid fa-star-half-stroke gold-star fa-xs"></i>
-                    <span class="gray-text p-0">(3000)</span>
-                  </span>
-                  <span class="price flex">
-                    <span class="price-text">&#8358;2750</span>
-                    <span class="gray-text"><del>&#8358;14900</del></span>
-                  </span>
-                </div>
-                <div class="card">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum
-                  cum incidunt at rem odit ipsam tempore perferendis. Ipsum,
-                  corporis odit.
-                </div>
-                <div class="card">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum
-                  cum incidunt at rem odit ipsam tempore perferendis. Ipsum,
-                  corporis odit.
-                </div>
-                <div class="card">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum
-                  cum incidunt at rem odit ipsam tempore perferendis. Ipsum,
-                  corporis odit.
-                </div>
-              </div>
-            </div>
-          </section>
-          <section class="course_cards_two">
-            <h3 class="sub_h3">Students are viewing</h3>
-            <div class="cards_wrap">
-              <div class="card">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum
-                cum incidunt at rem odit ipsam tempore perferendis. Ipsum,
-                corporis odit.
-              </div>
-              <div class="card">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum
-                cum incidunt at rem odit ipsam tempore perferendis. Ipsum,
-                corporis odit.
-              </div>
-              <div class="card">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum
-                cum incidunt at rem odit ipsam tempore perferendis. Ipsum,
-                corporis odit.
-              </div>
-              <div class="card">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum
-                cum incidunt at rem odit ipsam tempore perferendis. Ipsum,
-                corporis odit.
-              </div>
-              <div class="card">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum
-                cum incidunt at rem odit ipsam tempore perferendis. Ipsum,
-                corporis odit.
-              </div>
-            </div>
-          </section>
-        </div>
-      </section>
-      <!-- SECTION TWO -->
-      <section class="other_categories">
-        <div class="container">
-          <h3 class="sub_h3">Top Categories</h3>
-          <div class="cards-wrap2">
-            <div class="cards2">
-              <div class="image_wrap">
-                <img src="/images/top-category-design-img1.jpeg" alt="design" />
-              </div>
-              <span class="label">Design</span>
-            </div>
-            <div class="cards2">
-              <div class="image_wrap">
-                <img
-                  src="/images/top-category-development-img2.jpeg"
-                  alt="development"
-                />
-              </div>
-              <span class="label">Development</span>
-            </div>
-            <div class="cards2">
-              <div class="image_wrap">
-                <img
-                  src="/images/top-category-marketing-img3.jpeg"
-                  alt="marketing"
-                />
-              </div>
-              <span class="label">Marketing</span>
-            </div>
-            <div class="cards2">
-              <div class="image_wrap">
-                <img
-                  src="/images/top-category-n-software-img4.jpeg"
-                  alt="IT and software"
-                />
-              </div>
-              <span class="label">IT and software</span>
-            </div>
-            <div class="cards2">
-              <div class="image_wrap">
-                <img
-                  src="/images/top-category-personal-development-img5.jpeg"
-                  alt="personal development"
-                />
-              </div>
-              <span class="label">Personal Development</span>
-            </div>
-            <div class="cards2">
-              <div class="image_wrap">
-                <img
-                  src="/images/top-category-business-img6.jpeg"
-                  alt="business"
-                />
-              </div>
-              <span class="label">Business</span>
-            </div>
-            <div class="cards2">
-              <div class="image_wrap">
-                <img
-                  src="/images/top-category-photography-img7.jpeg"
-                  alt="Photography"
-                />
-              </div>
-              <span class="label">Photography</span>
-            </div>
-            <div class="cards2">
-              <div class="image_wrap">
-                <img src="/images/top-category-music-img8.jpeg" alt="music" />
-              </div>
-              <span class="label">Music</span>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- SECTION THREE -->
-      <section class="featured">
-        <div class="container">
-          <h3 class="sub_h3">Featured topics by category</h3>
-          <div class="featured-wrap w-80">
-            <ul class="featured-items">
-              <li><h4 class="f_sub_h4">Development</h4></li>
-              <li>
-                <a href="#">Python</a>
-                <span class="gray-text">36,354,994 students</span>
-              </li>
-              <li>
-                <a href="#">Web Development</a>
-                <span class="gray-text">11,415,615 students</span>
-              </li>
-              <li>
-                <a href="#">Machine Learning</a>
-                <span class="gray-text">7,070,015 students</span>
-              </li>
-            </ul>
-            <ul class="featured-items">
-              <li><h4 class="f_sub_h4">Business</h4></li>
-              <li>
-                <a href="#">Financial Analysis</a>
-                <span class="gray-text">1,195,282 students</span>
-              </li>
-              <li>
-                <a href="#">SQL</a>
-                <span class="gray-text">5,977,561 students</span>
-              </li>
-              <li>
-                <a href="#">PMP</a>
-                <span class="gray-text">1,733,398 students</span>
-              </li>
-            </ul>
-            <ul class="featured-items">
-              <li><h4 class="f_sub_h4">IT and Software</h4></li>
-              <li>
-                <a href="#">AWS Certification</a>
-                <span class="gray-text">6,078,244 students</span>
-              </li>
-              <li>
-                <a href="#">Ethical Hacking</a>
-                <span class="gray-text">10,931,066 students</span>
-              </li>
-              <li>
-                <a href="#">Cyber Security</a>
-                <span class="gray-text">3,998,037 students</span>
-              </li>
-            </ul>
-            <ul class="featured-items">
-              <li><h4 class="f_sub_h4">Design</h4></li>
-              <li>
-                <a href="#">Photoshop</a>
-                <span class="gray-text">10,909,736 students</span>
-              </li>
-              <li>
-                <a href="#">Graphic Design</a>
-                <span class="gray-text">3,381,052 students</span>
-              </li>
-              <li>
-                <a href="#">Drawing</a>
-                <span class="gray-text">2,410,849 students</span>
-              </li>
-            </ul>
-          </div>
-          <div>
-            <a class="featured-btn">Explore more topics</a>
-          </div>
-        </div>
-      </section>
-      <!-- SECTION FOUR -->
-      <section class="instructor">
-        <div class="container">
-          <div class="flex-container">
-            <div class="instructor-img-wrap">
-              <img src="/images/instructor-img.jpeg" alt="instructor's image" />
-            </div>
-            <div class="heading flex-center">
-              <div class="w-60">
-                <h2 class="courses_h2">Become an instructor</h2>
-                <p class="instructor_p">
-                  Instructors from around the world teach millions of students
-                  on Udemy. We provide the tools and skills to teach what you
-                  love.
-                </p>
-                <a href="#" class="signUp-btn nav_btns">Start teaching today</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- SECTION FIVE -->
-      <section class="trusted">
-        <div class="container">
-          <div class="heading marginx-auto">
-            <h3>Trusted by over 13,400 great teams</h3>
-            <p>
-              Leading companies use the same courses to help employees keep
-              their skills fresh.
-            </p>
-          </div>
-          <div class="companies">
-            <div>
-              <img src="/images/nasdaq-logo1.svg" alt="company logo" />
-            </div>
-            <div>
-              <img src="/images/volkswagen-logo2.svg" alt="company logo" />
-            </div>
-            <div>
-              <img src="/images/box-logo3.svg" alt="company logo" />
-            </div>
-            <div>
-              <img src="/images/netapp-logo4.svg" alt="company logo" />
-            </div>
-            <div>
-              <img src="/images/eventbrite-logo5svg.svg" alt="company logo" />
-            </div>
-            <div>
-              <img src="/images/tcs-dark-logo6.svg" alt="company logo" />
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- SECTION SIX -->
-      <section class="business">
-        <div class="container">
-          <div class="flex-container2 marginx-auto">
-            <div class="flex-item2 flex-column">
-              <div class="logo2">
-                <img src="/images/Ulogobusi.png" alt="business logo" />
-              </div>
-              <div class="ubusi-padding">
-                <p class="margin-b">
-                  Get unlimited access to 19,000+ of Udemy's top courses for
-                  your team. Learn and improve skills across business, tech,
-                  design, and more.
-                </p>
-                <a href="#" class="nav_btns signUp-btn">Get Udemy Business</a>
-              </div>
-            </div>
-            <div class="flex-item2">
-              <img src="/images/business_lady_img.jpeg" alt="entrepreneur" />
-            </div>
-            <div class="flex-item2">
-              <img
-                src="/images/transform_life_img.jpeg"
-                alt="Transform lives"
-              />
-            </div>
-            <div class="flex-item2 flex-column">
-              <div class="heading ubusi-padding">
-                <h3 class="courses_h2">
-                  Transform your life through education
-                </h3>
-              </div>
-              <div class="ubusi-padding">
-                <p class="margin-b">
-                  Learners around the world are launching new careers, advancing
-                  in their fields, and enriching their lives.
-                </p>
-                <a href="#" class="nav_btns signUp-btn">Find out how</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-    </main>
+<head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Document</title>
+      <script src="https://kit.fontawesome.com/13560a6630.js" crossorigin="anonymous"></script>
+      <link rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+      <link rel="stylesheet" href="/css/homestyle.css" />
+</head>
 
-    <!-- *********** FOOTER *********** -->
-    <footer class="footer">
-      <div class="container">
-        <section class="featured-wrap">
-          <ul class="footer-items">
-            <li><a href="#" class="line-hover">Udemy Business</a></li>
-            <li><a href="#" class="line-hover">Teach on Udemy</a></li>
-            <li><a href="#" class="line-hover">Get the app</a></li>
-            <li><a href="#" class="line-hover">About us</a></li>
-            <li><a href="#" class="line-hover">Contact us</a></li>
-          </ul>
-          <ul class="footer-items">
-            <li><a href="#" class="line-hover">careers</a></li>
-            <li><a href="#" class="line-hover">Blog</a></li>
-            <li><a href="#" class="line-hover">Help and Support</a></li>
-            <li><a href="#" class="line-hover">Affiliate</a></li>
-            <li><a href="#" class="line-hover">Investors</a></li>
-          </ul>
-          <ul class="footer-items">
-            <li><a href="#" class="line-hover">Terms</a></li>
-            <li><a href="#" class="line-hover">Privacy Policy</a></li>
-            <li><a href="#" class="line-hover">Cookie Settings</a></li>
-            <li><a href="#" class="line-hover">Sitemap</a></li>
-            <li><a href="#" class="line-hover">Accessibility</a></li>
-          </ul>
-          <ul class="footer-items">
-            <li>
-              <button class="footer_btn flex">
-                <span class="material-symbols-outlined"> language </span
-                >&nbsp;English
-              </button>
-            </li>
-          </ul>
-        </section>
-        <section class="companies">
-          <div class="logo">
-            <img src="/images/white-udemy-logo-light.png" alt="logo light" />
-          </div>
-          <p>© 2022 Udemy, Inc.</p>
-        </section>
-      </div>
-    </footer>
-    <!-- <i class="fa-solid fa-angle-right"></i>
+<body>
+      <nav class="nav-container">
+            <div class="full_nav">
+                  <div class="logo">
+                        <img src="/images/dark_Udemy_logo.svg.png" alt="logo" />
+                  </div>
+                  <!-- ------Integraataed tooltip starts---- -->
+                  <div class="first_tooltip_main">
+                        <a href="#" class="nav-link">Categories</a>
+                        <span class="first_tooltiptext">Tooltip text</span>
+                  </div>
+                  <!-- ------Integraataed tooltip ends---- -->
+                  <div class="input-control flex">
+                        <span class="material-symbols-outlined grey_icon"> search </span>
+                        <input type="search" id="search" placeholder="Search for anything" />
+                  </div>
+                  <div class="right_tooltip">
+                        <a href="#" class="nav-link">Udemy Business</a>
+                        <span class="r_tooltiptext">Tooltip text</span>
+                  </div>
+                  <div class="right_tooltip">
+                        <a href="#" class="nav-link">Teach on Udemy</a>
+                        <span class="r_tooltiptext">Tooltip text</span>
+                  </div>
+                  <ul class="icons-n-btns flex">
+                        <li>
+                              <a href="#" class="nav-link cart-link">
+                                    <span class="material-symbols-outlined"> shopping_cart </span>
+                              </a>
+                        </li>
+                        <li><a href="#" class="nav_btns logIn-btn">Log In</a></li>
+                        <li><a href="#" class="nav_btns signUp-btn">Sign up</a></li>
+                        <li>
+                              <button class="languages-btn">
+                                    <span class="material-symbols-outlined"> language </span>
+                              </button>
+                        </li>
+                  </ul>
+            </div>
+      </nav>
+      <main>
+            <!-- Hero Section -->
+            <section class="hero">
+                  <div class="container">
+                        <div class="content-header">
+                              <h1 class="hero_h1">Learning that gets you</h1>
+                              <h2 class="hero_h2">
+                                    Skills for your present (and your future). Get started today.
+                              </h2>
+                        </div>
+                  </div>
+            </section>
+            <!-- SECTION ONE -->
+            <section class="courses">
+                  <div class="container">
+                        <div class="heading">
+                              <h2 class="courses_h2">A broad selection of courses</h2>
+                              <h3 class="courses_h3">
+                                    Choose from 213,000 online video courses with new additions
+                                    published every month
+                              </h3>
+                        </div>
+                        <section class="course_cards">
+                              <div class="courses_tabs">
+                                    <a href="#" class="tab_links">Python</a>
+                                    <a href="#" class="tab_links">Excel</a>
+                                    <a href="#" class="active-link tab_links">Web Development</a>
+                                    <a href="#" class="tab_links">JavaScript</a>
+                                    <a href="#" class="tab_links">Data Science</a>
+                                    <a href="#" class="tab_links">AWS certification</a>
+                                    <a href="#" class="tab_links">Drawing</a>
+                              </div>
+                              <div class="cards_in_slide">
+                                    <div class="heading2">
+                                          <h3 class="sub_h3">
+                                                Build websites and applications with Web Development
+                                          </h3>
+                                          <h4 class="sub_h4">
+                                                The world of web development is as wide as the internet
+                                                itself. Much of our social and vocational lives play out on
+                                                the internet, which prompts new industries aimed at creating,
+                                                managing, and debugging the websites and applications that we
+                                                increasingly rely on.
+                                          </h4>
+                                          <a href="#" class="courses_btn">Explore Web development</a>
+                                    </div>
+                                    <div class="cards_wrap w-95">
+                                          <div class="card">
+                                                <div class="img">
+                                                      <img src="/images/web_courses_section_img1.jpeg"
+                                                            alt="html css and js certification" />
+                                                </div>
+                                                <h4 class="card-title">
+                                                      Become a Certified HTML, CSS, JavaScript Web...
+                                                </h4>
+                                                <span class="gray-text p-0">Dollar Design school, Mark Lassoff</span>
+                                                <span class="rating flex">
+                                                      <span class="rating-v gold-star">4.44</span>
+                                                      <i class="fa-solid fa-star gold-star fa-xs"></i>
+                                                      <i class="fa-solid fa-star gold-star fa-xs"></i>
+                                                      <i class="fa-solid fa-star gold-star fa-xs"></i>
+                                                      <i class="fa-solid fa-star gold-star fa-xs"></i>
+                                                      <i class="fa-solid fa-star-half-stroke gold-star fa-xs"></i>
+                                                      <span class="gray-text py-3">(3000)</span>
+                                                </span>
+                                                <span class="price flex">
+                                                      <span class="price-text">&#8358;2750</span>
+                                                      <span class="gray-text p-0"><del>&#8358;14900</del></span>
+                                                </span>
+                                          </div>
+                                          <div class="card">
+                                                <div class="img">
+                                                      <img src="/images/web_courses_img2.jpeg"
+                                                            alt="html css and js certification" />
+                                                </div>
+                                                <h4 class="card-title">
+                                                      The Complete 2020 Fullstack Web Developer Course
+                                                </h4>
+                                                <span class="gray-text p-0">Kalob Taulien</span>
+                                                <span class="rating flex">
+                                                      <span class="rating-v gold-star">4.5</span>
+                                                      <i class="fa-solid fa-star gold-star fa-xs"></i>
+                                                      <i class="fa-solid fa-star gold-star fa-xs"></i>
+                                                      <i class="fa-solid fa-star gold-star fa-xs"></i>
+                                                      <i class="fa-solid fa-star gold-star fa-xs"></i>
+                                                      <i class="fa-solid fa-star-half-stroke gold-star fa-xs"></i>
+                                                      <span class="gray-text py-3">(6,492)</span>
+                                                </span>
+                                                <span class="price flex">
+                                                      <span class="price-text">&#8358;29,900</span>
+                                                      <!-- <span class="gray-text"><del>&#8358;14900</del></span> -->
+                                                </span>
+                                          </div>
+                                          <div class="card">
+                                                <div class="img">
+                                                      <img src="/images/web_courses_img3.jpeg"
+                                                            alt="html css and js certification" />
+                                                </div>
+                                                <h4 class="card-title">
+                                                      Introduction to Web <br> Development
+                                                </h4>
+                                                <span class="gray-text p-0">Dollar Design school, Mark Lassoff</span>
+                                                <span class="rating flex">
+                                                      <span class="rating-v gold-star">4.3</span>
+                                                      <i class="fa-solid fa-star gold-star fa-xs"></i>
+                                                      <i class="fa-solid fa-star gold-star fa-xs"></i>
+                                                      <i class="fa-solid fa-star gold-star fa-xs"></i>
+                                                      <i class="fa-solid fa-star gold-star fa-xs"></i>
+                                                      <i class="fa-solid fa-star-half-stroke gold-star fa-xs"></i>
+                                                      <span class="gray-text py-3">(1,883)</span>
+                                                </span>
+                                                <span class="price flex">
+                                                      <span class="price-text">&#8358;4,500</span>
+                                                      <!-- <span class="gray-text"><del>&#8358;14900</del></span> -->
+                                                </span>
+                                          </div>
+                                          <div class="card">
+                                                <div class="img">
+                                                      <img src="/images/web_courses_img4.jpeg"
+                                                            alt="html css and js certification" />
+                                                </div>
+                                                <h4 class="card-title">
+                                                      Running a Web Development Business
+                                                </h4>
+                                                <span class="gray-text p-0">Evan Kimbrell</span>
+                                                <span class="rating flex">
+                                                      <span class="rating-v gold-star">4.8</span>
+                                                      <i class="fa-solid fa-star gold-star fa-xs"></i>
+                                                      <i class="fa-solid fa-star gold-star fa-xs"></i>
+                                                      <i class="fa-solid fa-star gold-star fa-xs"></i>
+                                                      <i class="fa-solid fa-star gold-star fa-xs"></i>
+                                                      <i class="fa-solid fa-star gold-star fa-xs"></i>
+                                                      <span class="gray-text py-3">(1,607)</span>
+                                                </span>
+                                                <span class="price flex-column">
+                                                      <span class="price-text">&#8358;17,900</span>
+                                                      <span class="tag">Bestseller</span>
+                                                      <!-- <span class="gray-text"><del>&#8358;14900</del></span> -->
+                                                </span>
+                                          </div>
+                                          <div class="card">
+                                                <div class="img">
+                                                      <img src="/images/web_courses_imglast.jpeg"
+                                                            alt="html css and js certification" />
+                                                </div>
+                                                <h4 class="card-title">
+                                                      Ultimate Web Designer & Web Developer Course
+                                                </h4>
+                                                <span class="gray-text p-0">Brad Hussey</span>
+                                                <span class="rating flex">
+                                                      <span class="rating-v gold-star">4.6</span>
+                                                      <i class="fa-solid fa-star gold-star fa-xs"></i>
+                                                      <i class="fa-solid fa-star gold-star fa-xs"></i>
+                                                      <i class="fa-solid fa-star gold-star fa-xs"></i>
+                                                      <i class="fa-solid fa-star gold-star fa-xs"></i>
+                                                      <i class="fa-solid fa-star-half-stroke gold-star fa-xs"></i>
+                                                      <span class="gray-text py-3">(13,669)</span>
+                                                </span>
+                                                <span class="price flex-column">
+                                                      <span class="price-text">&#8358;29,900</span>
+                                                      <span class="tag">Bestseller</span>
+                                                      <!-- <span class="gray-text"><del>&#8358;14900</del></span> -->
+                                                </span>
+                                          </div>
+                                    </div>
+                              </div>
+                        </section>
+                        <section class="course_cards_two">
+                              <h3 class="sub_h3">Students are viewing</h3>
+                              <div class="cards_wrap">
+                                    <div class="card">
+                                          <div class="img">
+                                                <img src="/images/students_viewing_img1.jpeg"
+                                                      alt="html css and js certification" />
+                                          </div>
+                                          <h4 class="card-title">
+                                                The complete 2023 Web Developer Bootcamp
+                                          </h4>
+                                          <span class="gray-text p-0 f-sm">Dr. Angela Yu</span>
+                                          <span class="rating flex">
+                                                <span class="rating-v gold-star">4.7</span>
+                                                <i class="fa-solid fa-star gold-star fa-xs"></i>
+                                                <i class="fa-solid fa-star gold-star fa-xs"></i>
+                                                <i class="fa-solid fa-star gold-star fa-xs"></i>
+                                                <i class="fa-solid fa-star gold-star fa-xs"></i>
+                                                <i class="fa-solid fa-star-half-stroke gold-star fa-xs"></i>
+                                                <span class="gray-text p-0">(239,685)</span>
+                                          </span>
+                                          <span class="price flex mb">
+                                                <span class="price-text">&#8358;29,900</span>
+                                                <span class="gray-text p-0"><del>&#8358;34,900</del></span>
+                                          </span>
+                                          <span class="tag">Bestseller</span>
+                                    </div>
+                                    <div class="card">
+                                          <div class="img">
+                                                <img src="/images/students_viewing_img2.jpeg"
+                                                      alt="html css and js certification" />
+                                          </div>
+                                          <h4 class="card-title">
+                                                100 Days of Code: The Complete Python pro bootcamp for 2023
+                                          </h4>
+                                          <span class="gray-text p-0 f-sm">Dr. Angela Yu</span>
+                                          <span class="rating flex">
+                                                <span class="rating-v gold-star">4.7</span>
+                                                <i class="fa-solid fa-star gold-star fa-xs"></i>
+                                                <i class="fa-solid fa-star gold-star fa-xs"></i>
+                                                <i class="fa-solid fa-star gold-star fa-xs"></i>
+                                                <i class="fa-solid fa-star gold-star fa-xs"></i>
+                                                <i class="fa-solid fa-star-half-stroke gold-star fa-xs"></i>
+                                                <span class="gray-text p-0">(154,791)</span>
+                                          </span>
+                                          <span class="price flex mb">
+                                                <span class="price-text">&#8358;4500</span>
+                                                <span class="gray-text p-0"><del>&#8358;29,900</del></span>
+                                          </span>
+                                          <span class="tag">Bestseller</span>
+                                    </div>
+                                    <div class="card">
+                                          <div class="img">
+                                                <img src="/images/students-viewing_img3.jpeg"
+                                                      alt="html css and js certification" />
+                                          </div>
+                                          <h4 class="card-title">
+                                                The complete JavaScript course 2023: From Zero to Expert!
+                                          </h4>
+                                          <span class="gray-text p-0 f-sm">Jonas Schmedtmann</span>
+                                          <span class="rating flex">
+                                                <span class="rating-v gold-star">4.7</span>
+                                                <i class="fa-solid fa-star gold-star fa-xs"></i>
+                                                <i class="fa-solid fa-star gold-star fa-xs"></i>
+                                                <i class="fa-solid fa-star gold-star fa-xs"></i>
+                                                <i class="fa-solid fa-star gold-star fa-xs"></i>
+                                                <i class="fa-solid fa-star-half-stroke gold-star fa-xs"></i>
+                                                <span class="gray-text p-0">(153,685)</span>
+                                          </span>
+                                          <span class="price flex mb">
+                                                <span class="price-text">&#8358;3900</span>
+                                                <span class="gray-text p-0"><del>&#8358;24,900</del></span>
+                                          </span>
+                                          <span class="tag">Bestseller</span>
+                                    </div>
+                                    <div class="card">
+                                          <div class="img">
+                                                <img src="/images/students_view_img4.jpeg"
+                                                      alt="html css and js certification" />
+                                          </div>
+                                          <h4 class="card-title">
+                                                Ultimate AWS Certified solutions Architect Associate...
+                                          </h4>
+                                          <span class="gray-text p-0 f-sm">Stephane Maarek | AWS Certified Cloud...</span>
+                                          <span class="rating flex">
+                                                <span class="rating-v gold-star">4.7</span>
+                                                <i class="fa-solid fa-star gold-star fa-xs"></i>
+                                                <i class="fa-solid fa-star gold-star fa-xs"></i>
+                                                <i class="fa-solid fa-star gold-star fa-xs"></i>
+                                                <i class="fa-solid fa-star gold-star fa-xs"></i>
+                                                <i class="fa-solid fa-star-half-stroke gold-star fa-xs"></i>
+                                                <span class="gray-text p-0">(155,685)</span>
+                                          </span>
+                                          <span class="price flex mb">
+                                                <span class="price-text">&#8358;3900</span>
+                                                <span class="gray-text p-0"><del>&#8358;24,900</del></span>
+                                          </span>
+                                          <span class="tag">Bestseller</span>
+                                    </div>
+                                    <div class="card">
+                                          <div class="img">
+                                                <img src="/images/students_viewing-imgLast.jpeg"
+                                                      alt="html css and js certification" />
+                                          </div>
+                                          <h4 class="card-title">
+                                                React - The Complete Guide (incl hooks, ReactnRouter, Redux)
+                                          </h4>
+                                          <span class="gray-text p-0 f-sm">Academind by Maximilian Schwarzmuller...</span>
+                                          <span class="rating flex">
+                                                <span class="rating-v gold-star">4.6</span>
+                                                <i class="fa-solid fa-star gold-star fa-xs"></i>
+                                                <i class="fa-solid fa-star gold-star fa-xs"></i>
+                                                <i class="fa-solid fa-star gold-star fa-xs"></i>
+                                                <i class="fa-solid fa-star gold-star fa-xs"></i>
+                                                <i class="fa-solid fa-star-half-stroke gold-star fa-xs"></i>
+                                                <span class="gray-text p-0">(168,141)</span>
+                                          </span>
+                                          <span class="price flex mb">
+                                                <span class="price-text">&#8358;4500</span>
+                                                <span class="gray-text p-0"><del>&#8358;29,900</del></span>
+                                          </span>
+                                          <span class="tag">Bestseller</span>
+                                    </div>
+                              </div>
+                        </section>
+                  </div>
+            </section>
+            <!-- SECTION TWO -->
+            <section class="other_categories">
+                  <div class="container">
+                        <h3 class="sub_h3">Top Categories</h3>
+                        <div class="cards-wrap2">
+                              <div class="cards2">
+                                    <div class="image_wrap">
+                                          <img src="/images/top-category-design-img1.jpeg" alt="design" />
+                                    </div>
+                                    <span class="label">Design</span>
+                              </div>
+                              <div class="cards2">
+                                    <div class="image_wrap">
+                                          <img src="/images/top-category-development-img2.jpeg" alt="development" />
+                                    </div>
+                                    <span class="label">Development</span>
+                              </div>
+                              <div class="cards2">
+                                    <div class="image_wrap">
+                                          <img src="/images/top-category-marketing-img3.jpeg" alt="marketing" />
+                                    </div>
+                                    <span class="label">Marketing</span>
+                              </div>
+                              <div class="cards2">
+                                    <div class="image_wrap">
+                                          <img src="/images/top-category-n-software-img4.jpeg" alt="IT and software" />
+                                    </div>
+                                    <span class="label">IT and software</span>
+                              </div>
+                              <div class="cards2">
+                                    <div class="image_wrap">
+                                          <img src="/images/top-category-personal-development-img5.jpeg"
+                                                alt="personal development" />
+                                    </div>
+                                    <span class="label">Personal Development</span>
+                              </div>
+                              <div class="cards2">
+                                    <div class="image_wrap">
+                                          <img src="/images/top-category-business-img6.jpeg" alt="business" />
+                                    </div>
+                                    <span class="label">Business</span>
+                              </div>
+                              <div class="cards2">
+                                    <div class="image_wrap">
+                                          <img src="/images/top-category-photography-img7.jpeg" alt="Photography" />
+                                    </div>
+                                    <span class="label">Photography</span>
+                              </div>
+                              <div class="cards2">
+                                    <div class="image_wrap">
+                                          <img src="/images/top-category-music-img8.jpeg" alt="music" />
+                                    </div>
+                                    <span class="label">Music</span>
+                              </div>
+                        </div>
+                  </div>
+            </section>
+            <!-- SECTION THREE -->
+            <section class="featured">
+                  <div class="container">
+                        <h3 class="sub_h3">Featured topics by category</h3>
+                        <div class="featured-wrap w-80">
+                              <ul class="featured-items">
+                                    <li>
+                                          <h4 class="f_sub_h4">Development</h4>
+                                    </li>
+                                    <li>
+                                          <a href="#">Python</a>
+                                          <span class="gray-text">36,354,994 students</span>
+                                    </li>
+                                    <li>
+                                          <a href="#">Web Development</a>
+                                          <span class="gray-text">11,415,615 students</span>
+                                    </li>
+                                    <li>
+                                          <a href="#">Machine Learning</a>
+                                          <span class="gray-text">7,070,015 students</span>
+                                    </li>
+                              </ul>
+                              <ul class="featured-items">
+                                    <li>
+                                          <h4 class="f_sub_h4">Business</h4>
+                                    </li>
+                                    <li>
+                                          <a href="#">Financial Analysis</a>
+                                          <span class="gray-text">1,195,282 students</span>
+                                    </li>
+                                    <li>
+                                          <a href="#">SQL</a>
+                                          <span class="gray-text">5,977,561 students</span>
+                                    </li>
+                                    <li>
+                                          <a href="#">PMP</a>
+                                          <span class="gray-text">1,733,398 students</span>
+                                    </li>
+                              </ul>
+                              <ul class="featured-items">
+                                    <li>
+                                          <h4 class="f_sub_h4">IT and Software</h4>
+                                    </li>
+                                    <li>
+                                          <a href="#">AWS Certification</a>
+                                          <span class="gray-text">6,078,244 students</span>
+                                    </li>
+                                    <li>
+                                          <a href="#">Ethical Hacking</a>
+                                          <span class="gray-text">10,931,066 students</span>
+                                    </li>
+                                    <li>
+                                          <a href="#">Cyber Security</a>
+                                          <span class="gray-text">3,998,037 students</span>
+                                    </li>
+                              </ul>
+                              <ul class="featured-items">
+                                    <li>
+                                          <h4 class="f_sub_h4">Design</h4>
+                                    </li>
+                                    <li>
+                                          <a href="#">Photoshop</a>
+                                          <span class="gray-text">10,909,736 students</span>
+                                    </li>
+                                    <li>
+                                          <a href="#">Graphic Design</a>
+                                          <span class="gray-text">3,381,052 students</span>
+                                    </li>
+                                    <li>
+                                          <a href="#">Drawing</a>
+                                          <span class="gray-text">2,410,849 students</span>
+                                    </li>
+                              </ul>
+                        </div>
+                        <div>
+                              <a class="featured-btn">Explore more topics</a>
+                        </div>
+                  </div>
+            </section>
+            <!-- SECTION FOUR -->
+            <section class="instructor">
+                  <div class="container">
+                        <div class="flex-container">
+                              <div class="instructor-img-wrap">
+                                    <img src="/images/instructor-img.jpeg" alt="instructor's image" />
+                              </div>
+                              <div class="heading flex-center">
+                                    <div class="w-60">
+                                          <h2 class="courses_h2">Become an instructor</h2>
+                                          <p class="instructor_p">
+                                                Instructors from around the world teach millions of students
+                                                on Udemy. We provide the tools and skills to teach what you
+                                                love.
+                                          </p>
+                                          <a href="#" class="signUp-btn nav_btns">Start teaching today</a>
+                                    </div>
+                              </div>
+                        </div>
+                  </div>
+            </section>
+            <!-- SECTION FIVE -->
+            <section class="trusted">
+                  <div class="container2">
+                        <div class="heading marginx-auto">
+                              <h3>Trusted by over 13,400 great teams</h3>
+                              <p>
+                                    Leading companies use the same courses to help employees keep
+                                    their skills fresh.
+                              </p>
+                        </div>
+                        <div class="companies">
+                              <div>
+                                    <img src="/images/nasdaq-logo1.svg" alt="company logo" />
+                              </div>
+                              <div>
+                                    <img src="/images/volkswagen-logo2.svg" alt="company logo" />
+                              </div>
+                              <div>
+                                    <img src="/images/box-logo3.svg" alt="company logo" />
+                              </div>
+                              <div>
+                                    <img src="/images/netapp-logo4.svg" alt="company logo" />
+                              </div>
+                              <div>
+                                    <img src="/images/eventbrite-logo5svg.svg" alt="company logo" />
+                              </div>
+                              <div>
+                                    <img src="/images/tcs-dark-logo6.svg" alt="company logo" />
+                              </div>
+                        </div>
+                  </div>
+            </section>
+            <!-- SECTION SIX -->
+            <section class="business">
+                  <div class="container">
+                        <div class="flex-container2 marginx-auto">
+                              <div class="flex-item2 flex-column">
+                                    <div class="logo2">
+                                          <img src="/images/Ulogobusi.png" alt="business logo" />
+                                    </div>
+                                    <div class="ubusi-padding">
+                                          <p class="margin-b">
+                                                Get unlimited access to 19,000+ of Udemy's top courses for
+                                                your team. Learn and improve skills across business, tech,
+                                                design, and more.
+                                          </p>
+                                          <a href="#" class="nav_btns signUp-btn">Get Udemy Business</a>
+                                    </div>
+                              </div>
+                              <div class="flex-item2">
+                                    <img src="/images/business_lady_img.jpeg" alt="entrepreneur" />
+                              </div>
+                              <div class="flex-item2">
+                                    <img src="/images/transform_life_img.jpeg" alt="Transform lives" />
+                              </div>
+                              <div class="flex-item2 flex-column">
+                                    <div class="heading ubusi-padding">
+                                          <h3 class="courses_h2">
+                                                Transform your life through education
+                                          </h3>
+                                    </div>
+                                    <div class="ubusi-padding">
+                                          <p class="margin-b">
+                                                Learners around the world are launching new careers, advancing
+                                                in their fields, and enriching their lives.
+                                          </p>
+                                          <a href="#" class="nav_btns signUp-btn">Find out how</a>
+                                    </div>
+                              </div>
+                        </div>
+                  </div>
+            </section>
+      </main>
+
+      <!-- *********** FOOTER *********** -->
+      <footer class="footer">
+            <div class="container">
+                  <section class="featured-wrap">
+                        <ul class="footer-items">
+                              <li><a href="#" class="line-hover">Udemy Business</a></li>
+                              <li><a href="#" class="line-hover">Teach on Udemy</a></li>
+                              <li><a href="#" class="line-hover">Get the app</a></li>
+                              <li><a href="#" class="line-hover">About us</a></li>
+                              <li><a href="#" class="line-hover">Contact us</a></li>
+                        </ul>
+                        <ul class="footer-items">
+                              <li><a href="#" class="line-hover">careers</a></li>
+                              <li><a href="#" class="line-hover">Blog</a></li>
+                              <li><a href="#" class="line-hover">Help and Support</a></li>
+                              <li><a href="#" class="line-hover">Affiliate</a></li>
+                              <li><a href="#" class="line-hover">Investors</a></li>
+                        </ul>
+                        <ul class="footer-items">
+                              <li><a href="#" class="line-hover">Terms</a></li>
+                              <li><a href="#" class="line-hover">Privacy Policy</a></li>
+                              <li><a href="#" class="line-hover">Cookie Settings</a></li>
+                              <li><a href="#" class="line-hover">Sitemap</a></li>
+                              <li><a href="#" class="line-hover">Accessibility</a></li>
+                        </ul>
+                        <ul class="footer-items">
+                              <li>
+                                    <button class="footer_btn flex">
+                                          <span class="material-symbols-outlined"> language </span>&nbsp;English
+                                    </button>
+                              </li>
+                        </ul>
+                  </section>
+                  <section class="companies">
+                        <div class="logo">
+                              <img src="/images/white-udemy-logo-light.png" alt="logo light" />
+                        </div>
+                        <p>© 2022 Udemy, Inc.</p>
+                  </section>
+            </div>
+      </footer>
+      <!-- <i class="fa-solid fa-angle-right"></i>
        <i class="fa-regular fa-star gold-star fa-xs"></i>
        -->
-  </body>
+</body>
+
 </html>
